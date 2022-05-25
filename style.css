@@ -1,0 +1,168 @@
+body {
+    background-color: #333;
+}
+
+* {
+    /* all elements */
+    box-sizing: border-box;
+}
+
+/* color theme and variables / pseudo-class */
+:root {
+    --accentColor: #ad3869;
+    --headerColor: #444444;
+    --paragraphColor: #626262;
+    --ease: all 0.4s ease;
+    --radius: 6px;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    color: var(--headerColor);
+    padding: 0px 20px;
+    background-color: #fffafa;
+}
+
+/* icons */
+.icon {
+    width: 24px;
+    height: 24px;
+    margin: 0px 3px;
+}
+
+/* colors */
+.accentColor {
+    color: var(--accentColor);
+}
+
+.paragraph {
+    color: var(--paragraphColor);
+}
+
+a {
+    color: var(--headerColor);
+    text-decoration: none;
+}
+
+/* center elements */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sections and add margins */
+section {
+    margin: 150px 0px;
+}
+
+/* background images */
+.backgroundFix {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* styles for elements */
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid2,
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.grid3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.padChild {
+    padding: 25px;
+}
+
+/* nav & header */
+#navBar {
+    list-style: none;
+}
+
+.topHeader .logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .topHeader .flex-space {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* About */
+.aboutSection .aboutImg {
+    height: 350px;
+    width: 60%;
+    margin-left: auto;
+    border-radius: 30px;
+}
+
+@media (max-width: 1000px) {
+    .aboutSection .aboutImg {
+        width: 80%;
+    }
+
+    @media (max-width: 800px) {
+        .aboutSection {
+            display: block;
+        }
+
+        .aboutSection .aboutImg {
+            display: none;
+        }
+    }
+}
+
+
+/* portfolio */
+.portfolio-section p {
+    font-size: 14px;
+}
+
+.portfolio-section .portfolio-image {
+    height: 250px;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .portfolio-section .grid3 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 550px) {
+        .portfolio-section .grid3 {
+            grid-template-columns: 1fr;
+        }
+    }
+}
