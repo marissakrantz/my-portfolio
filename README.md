@@ -2,7 +2,7 @@
 
 ## Desciption
 
-> 🔍 A personalised professional portfolio page showcasing a bit about myself and my coding skills.
+> 🔍 A personalised professional portfolio page showcasing a bit about myself and my coding skills. Note: Current projects listed are not my own - only placeholders until my own projects are complete.
 
 ## Screenshot of Webpage
 
