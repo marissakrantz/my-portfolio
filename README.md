@@ -2,7 +2,7 @@
 
 ## Desciption
 
-> 🔍 A personalised professional portfolio page showcasing a bit about myself and my coding skills. Note: Current projects listed are not my own - only placeholders until my own projects are complete.
+> 🔍 A personalised professional portfolio page showcasing a bit about myself and my coding skills. Note: Current projects listed are only placeholders until my own projects are complete.
 
 ## Screenshot of Webpage
 
@@ -33,7 +33,7 @@
 
 ## Future of Project
 
-> I will be updating my portfolio as I complete more projects and learn more coding techniques. 
+> I will be updating my portfolio as I complete more projects. 
 
 ## Contact
 > ✉️ Contact me with any questions: [email](mailto:marissaleak@hotmail.com) , [GitHub](https://github.com/marissakrantz)<br />
