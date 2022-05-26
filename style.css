@@ -153,7 +153,6 @@ section {
     }
 }
 
-
 /* portfolio */
 .portfolio-section p {
     font-size: 14px;
@@ -162,6 +161,17 @@ section {
 .portfolio-section .portfolio-image {
     height: 250px;
     width: 100%;
+    border-radius: 30px;
+}
+
+#first-project {
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #fffafa;
 }
 
 @media (max-width: 800px) {
