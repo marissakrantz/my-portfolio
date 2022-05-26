@@ -21,6 +21,7 @@
 * [GitHub Pages](https://pages.github.com)
 * [W3 Schools](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
+* [Flaticon](https://www.flaticon.com/)
 
 ## Authors
 
