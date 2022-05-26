@@ -10,7 +10,7 @@
 
 ## Installation
 
-> 💾 This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is NOT live but will be at the following URL [here](https://).
+> 💾 This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is live at the following URL [here]([https://](https://marissakrantz.github.io/my-portfolio/)).
 
 ## Built With
 
@@ -28,7 +28,7 @@
 
 ## Project Status
 
-> Website is NOT currently live. 
+> Website is currently live. 
 
 ## Future of Project
 
