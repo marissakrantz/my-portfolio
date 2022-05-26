@@ -6,7 +6,7 @@
 
 ## Screenshot of Webpage
 
-![Screenshot of portfolio page]()
+[images/my-profile]()
 
 ## Installation
 
